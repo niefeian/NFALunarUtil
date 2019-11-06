@@ -1,0 +1,16 @@
+PODS:
+  - NFALunarUtil (0.1.0)
+
+DEPENDENCIES:
+  - NFALunarUtil (from `../`)
+
+EXTERNAL SOURCES:
+  NFALunarUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NFALunarUtil: d6e2eb513271f6c9448471752c505fb06cfdc093
+
+PODFILE CHECKSUM: ba6bfe7060b9206658bfbc02fdfd50e3aa30b558
+
+COCOAPODS: 1.8.4

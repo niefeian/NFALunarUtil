@@ -39,9 +39,9 @@
 /* Begin PBXFileReference section */
 		1601F182E306ED9DF56DE4E7 /* Pods-NFALunarUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFALunarUtil_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NFALunarUtil_Tests/Pods-NFALunarUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		21E19512C07D51292C07AB83 /* Pods-NFALunarUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFALunarUtil_Tests.release.xcconfig"; path = "Target Support Files/Pods-NFALunarUtil_Tests/Pods-NFALunarUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2B3A63DB67A7A7CE90FF92F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		38C60BED1DC61EB9B0FE2826 /* NFALunarUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NFALunarUtil.podspec; path = ../NFALunarUtil.podspec; sourceTree = "<group>"; };
-		40FCBE26063BFDB5B3C3B849 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2B3A63DB67A7A7CE90FF92F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		38C60BED1DC61EB9B0FE2826 /* NFALunarUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NFALunarUtil.podspec; path = ../NFALunarUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40FCBE26063BFDB5B3C3B849 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		54E5A828616C9458213BE15E /* Pods_NFALunarUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFALunarUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* NFALunarUtil_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFALunarUtil_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -193,7 +193,6 @@
 				1601F182E306ED9DF56DE4E7 /* Pods-NFALunarUtil_Tests.debug.xcconfig */,
 				21E19512C07D51292C07AB83 /* Pods-NFALunarUtil_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
