@@ -1,5 +1,5 @@
 PODS:
-  - NFALunarUtil (0.0.2)
+  - NFALunarUtil (0.0.3)
 
 DEPENDENCIES:
   - NFALunarUtil (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NFALunarUtil: 4913c19c5e8f509c1840624f410562c9508fc6dd
+  NFALunarUtil: 651c5483c9a2f2ba61eac8306abc3a6b4f1b3c95
 
 PODFILE CHECKSUM: ba6bfe7060b9206658bfbc02fdfd50e3aa30b558
 
